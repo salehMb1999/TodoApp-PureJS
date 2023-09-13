@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: rgb(175, 112, 234);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80rem;
+  padding-bottom: 2rem;
+  margin: 5rem auto 0 auto;
+  border-radius: 2rem;
+  background-color: rgb(240, 183, 240);
+}
+.toDoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  width: 90%;
+}
+.toDoItem {
+  background-color: rgb(106, 39, 104);
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-top: 3rem;
+}
+.inputTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.inputTodo {
+  padding: 1rem 2rem;
+  width: 50%;
+  outline: none;
+  border-radius: 2rem;
+  border: none;
+}
+.fa-trash {
+    cursor: pointer;
+}
